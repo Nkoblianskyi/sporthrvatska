@@ -45,25 +45,6 @@ export function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* Column 3: Categories */}
-          <div>
-            <h4 className="text-lg font-bold mb-4 text-background">Kategorije</h4>
-            <ul className="space-y-3">
-              <li>
-                <span className="text-sm text-background/70">Nogomet</span>
-              </li>
-              <li>
-                <span className="text-sm text-background/70">Košarka</span>
-              </li>
-              <li>
-                <span className="text-sm text-background/70">Rukomet</span>
-              </li>
-              <li>
-                <span className="text-sm text-background/70">Tenis</span>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="border-t border-background/20 pt-8 pb-8 flex flex-col items-center">

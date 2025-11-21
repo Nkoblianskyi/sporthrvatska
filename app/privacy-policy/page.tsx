@@ -6,7 +6,7 @@ export default function PrivacyPolicyPage() {
     <>
       <Header />
 
-      <div className="min-h-screen bg-white pt-20">
+      <div className="min-h-screen bg-white pt-4">
         <div className="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
           <div className="text-center mb-12 pb-8 border-b-2 border-primary">
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-foreground mb-4">Politika privatnosti</h1>
@@ -134,12 +134,11 @@ export default function PrivacyPolicyPage() {
               <h2 className="text-3xl font-serif font-bold text-foreground mb-4">Kontaktirajte nas</h2>
               <p className="text-muted-foreground leading-relaxed">
                 Ako imate pitanja o ovoj politici privatnosti, kontaktirajte nas na:{" "}
-                <a
-                  href="mailto:privatnost@sporthrvatska.com"
+                <p
                   className="text-primary hover:text-primary/80 font-semibold underline transition-colors"
                 >
                   privatnost@sporthrvatska.com
-                </a>
+                </p>
               </p>
             </section>
           </div>

@@ -40,23 +40,23 @@ export function Hero() {
         </div>
 
         <div className="grid grid-cols-4 gap-1.5 md:gap-2 mb-2 md:mb-4 mt-3 md:mt-8">
-          <div className=" p-1.5 md:p-3 text-center hover:border-primary hover:shadow-lg transition-all group">
-            <Image src="/flag.png" alt="advertiser" width={100} height={100} />
+          <div className="p-1.5 md:p-3 flex flex-col items-center text-center hover:border-primary hover:shadow-lg transition-all group">
+            <Image src="/flag.png" alt="advertiser" width={32} height={32} className="w-3 h-3 md:w-8 md:h-8 mb-0.5 md:mb-1" />
             <p className="text-[8px] md:text-xs font-bold text-slate-900">Licencirane</p>
           </div>
 
-          <div className=" p-1.5 md:p-3 text-center hover:border-[#D4AF37] hover:shadow-lg transition-all group">
-            <Star className="w-3 h-3 md:w-6 md:h-6 mx-auto mb-0.5 md:mb-1 text-[#D4AF37] group-hover:scale-110 transition-transform" />
+          <div className="p-1.5 md:p-3 flex flex-col items-center text-center hover:border-[#D4AF37] hover:shadow-lg transition-all group">
+            <Star className="w-3 h-3 md:w-6 md:h-6 mb-0.5 md:mb-1 text-[#D4AF37] group-hover:scale-110 transition-transform" />
             <p className="text-[8px] md:text-xs font-bold text-slate-900">Ekskluzivno</p>
           </div>
 
-          <div className=" p-1.5 md:p-3 text-center hover:border-primary hover:shadow-lg transition-all group">
-            <TrendingUp className="w-3 h-3 md:w-6 md:h-6 mx-auto mb-0.5 md:mb-1 text-primary group-hover:scale-110 transition-transform" />
+          <div className="p-1.5 md:p-3 flex flex-col items-center text-center hover:border-primary hover:shadow-lg transition-all group">
+            <TrendingUp className="w-3 h-3 md:w-6 md:h-6 mb-0.5 md:mb-1 text-primary group-hover:scale-110 transition-transform" />
             <p className="text-[8px] md:text-xs font-bold text-slate-900">Ažurno</p>
           </div>
 
-          <div className=" p-1.5 md:p-3 text-center hover:border-[#D4AF37] hover:shadow-lg transition-all group">
-            <Trophy className="w-3 h-3 md:w-6 md:h-6 mx-auto mb-0.5 md:mb-1 text-[#D4AF37] group-hover:scale-110 transition-transform" />
+          <div className="p-1.5 md:p-3 flex flex-col items-center text-center hover:border-[#D4AF37] hover:shadow-lg transition-all group">
+            <Trophy className="w-3 h-3 md:w-6 md:h-6 mb-0.5 md:mb-1 text-[#D4AF37] group-hover:scale-110 transition-transform" />
             <p className="text-[8px] md:text-xs font-bold text-slate-900">Pouzdano</p>
           </div>
         </div>

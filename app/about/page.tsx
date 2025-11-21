@@ -6,7 +6,7 @@ export default function AboutPage() {
     <>
       <Header />
 
-      <div className="min-h-screen bg-white pt-20">
+      <div className="min-h-screen bg-white">
         <div className="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
           <div className="text-center mb-12 pb-8 border-b-2 border-primary">
             <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">O nama</h1>
@@ -113,12 +113,11 @@ export default function AboutPage() {
               <h3 className="font-serif text-2xl font-bold text-foreground mb-4">Kontaktirajte nas</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Imate pitanja, prijedloge ili želite surađivati? Javite nam se na:{" "}
-                <a
-                  href="mailto:info@sporthrvatska.com"
+                <p
                   className="text-primary hover:text-primary/80 font-semibold underline"
                 >
                   info@sporthrvatska.com
-                </a>
+                </p>
               </p>
               <p className="text-foreground font-semibold">Odgovor u roku od 24 sata</p>
             </section>

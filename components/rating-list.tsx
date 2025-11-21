@@ -67,7 +67,7 @@ export function RatingList({ sites }: RatingListProps) {
                 }`}
               >
                 <div
-                  className={`absolute top-3 left-3 z-20 ${
+                  className={`absolute top-0 left-0 z-20 ${
                     isFirstPlace ? "bg-amber-400" : "bg-slate-600"
                   } text-white font-bold text-base md:text-xl w-10 h-10 md:w-12 md:h-12 flex items-center justify-center shadow-sm`}
                 >
@@ -270,14 +270,9 @@ export function RatingList({ sites }: RatingListProps) {
                     </div>
 
                     {/* Rating Row - 3 columns: Rating | Stars+Reviews | Button */}
-                    <div className="grid grid-cols-3 items-center gap-2 py-3 border-t border-slate-100">
+                    <div className="grid grid-cols-3 items-center gap-2  border-t border-slate-100">
                       {/* Column 1: Rating */}
-                      <div className="text-center">
-                        <p
-                          className={`text-xs font-bold mb-1 uppercase ${isFirstPlace ? "text-amber-600" : "text-slate-600"}`}
-                        >
-                          OCJENA
-                        </p>
+                      <div className="text-center mb-1">
                         <div className={`text-3xl font-bold ${isFirstPlace ? "text-amber-600" : "text-slate-700"}`}>
                           {site.rating.toFixed(1)}
                         </div>
